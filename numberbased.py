@@ -98,6 +98,18 @@ def Spy(n):
 Spy(n) 
 
 #Write a Python program to convert a given decimal number into an equivalent binary number 
-
+n=int(input())
+str1=''
+while(n>0):
+    r=n%2
+    str1=str(r)+str1
+    n=n//2
+print(str1)
 
 #Write a Python program to convert the given binary number to its equivalent decimal number.
+binary=input()
+binary=binary[::-1] #This will reverse the string
+decimal=0
+for i in range(len(binary)):
+    decimal = decimal + (int(binary[i])*(2**i))
+print(decimal)
