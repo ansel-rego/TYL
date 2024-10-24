@@ -1,0 +1,7 @@
+x.isupper() returns true if x contains only uppercase alphabetical characters 
+x.isdigit() returns True if all characters are 
+x.upper() converts all alphabetical characters of x into upper case
+x.lower() 
+x.swapcase() swaps the case of alphabetical characters
+x.isspace() returns True if all the characters in x are spaces
+x.isalnum() returns True if all the characters are alphannumeric 
