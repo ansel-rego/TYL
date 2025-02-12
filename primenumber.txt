@@ -1,0 +1,13 @@
+1 has exactly one factor.So one is not a prime number.
+2 has exactly two factors-1 and 2.So 2 is a prime number number. 
+3 has exactly two factors-1 and 3.So 3 is a prime number.
+4 has more than two factors-1,2,4. So 4 is not a prime number. 
+Suppose that we want to check whether 7 is a prime number or not.
+We can start by checking whether 7 is divisible by 2 
+If 7 is divisible by 2, then 7 is not a prime number.
+If 7 is not divisible by 2, we need to check whether 7 is divisible by 3.
+Similarly we have to check whether 7 is divisible by any number upto 6.
+If 7 is divisible by any number other than 1 and 7, then 7 is not a prime number.
+But 7 is divisible 1 and 7, but not divisible by any other number.
+So 7 is a prime number.
+ 
