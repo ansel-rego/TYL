@@ -1,0 +1,60 @@
+DICTONARY:
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+Dictionaries are written with curly brackets, and have keys and values
+dict1={
+    'matches':295
+    centuries':50,
+    'fifties':300
+    }
+
+To print the number of matches played by Virat Kholi
+print(dict1['matches'])
+
+To print number of centuries
+print(dict1['centuries'])
+
+To print number of fities
+print(dict1['fifties'])
+
+This is easier for a new user than printing x[0],x[1],x[2].
+In a dictionary, key can be int,float or string. 
+dict1.keys() gives all keys of the dictionary.
+dict1.values() gives all the values of the dictionary.
+
+Append function doesnt work with dictionary.
+To append a new element into a dictionary we need to speicify both key and value.
+For example, dict1['runs']=13906
+This will append a new key-value pair to the dictionary.
+Unlike lists, order does not matter in dictionaries.
+Like lists, values of dictionaries can be overwritten.
+For example, if Virat Kholi hits 51st century, then we can update the dictionaryas follows:
+dict1['centuries']=51
+
+The elements of the list are stored in contiguous(continuous) memory locations.
+But contiguous memory locations are not needed to store elements of a dictionary.
+This is another advantage of dictionary.
+
+Suppose that there are 100 elements in a list and we want to interest an new element at the 0th index.
+Before inserting a new element, we have to shift the existing 100 elements by 1 position.
+Similarly, if we delete the element at the 0th index of the list, then we have to shift the remaining 99 elements by 1 position
+Hence, insertion and deletion operation are time consuming in a list.
+But insertionand deletioncan be done very quicky in a dictionary.
+This is another advantage of using dictionaries.
+
+To insert a new eleement in a dictionary:
+dict1['avg']=58.65
+To delete a element from the dictionary:
+dict1.pop('avg')
+This will delete the key-value pair whose key is 'avg'.
+
+When we insert or delete elements of a dictionary, we need not alter the position of other eleements of the dictionary.
+The only disadvantage of a dictionary is we need memory locations to store both keys and values.
+But in a list,index need not be stored.
+By default,index values are 0,1,2,.........,len(list1)-1
+In a dictionary,keys cannot be repeated, but values can.
+If we repeat the keys, the latest key-value pair will be retained.
+To initialize a empty dictionary:
+dict1={}
+
