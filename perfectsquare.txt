@@ -1,5 +1,0 @@
-How to check whether a number is perfect square or not
-Step 1:  Find the square root of the number 
-Step 2: Find the integer part of the square root 
-Step 3: Find its square
-Step 4: If the result is equal to the orignal number,then the original number  is a perfect square 
