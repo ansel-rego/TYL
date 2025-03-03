@@ -9,6 +9,7 @@ Sample Output:
 0.444
 '''
 
+#Code starts here:
 str1=input()
 str2=input()
 total=len(str1)+len(str2)
@@ -19,3 +20,4 @@ for i in range(m):
         similar+=1
 similarity_value=(2*similar)/total
 print('%0.3f'%similarity_value)
+#Code ends here.
