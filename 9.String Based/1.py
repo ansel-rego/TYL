@@ -8,6 +8,7 @@ Sample Output:
 abca tuvt xyz
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split()
 list2=[]
@@ -18,3 +19,4 @@ if len(list2)!=0:
     print(*list2)
 else:
     print('None')
+#Code ends here.
