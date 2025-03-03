@@ -7,6 +7,7 @@ Sample Output:
 True
 '''
 
+#Code starts here:
 n=int(input())
 def Is_Armstrong(n):
     l=len(str(n))
@@ -18,3 +19,4 @@ def Is_Armstrong(n):
     else:
         return False
 print(Is_Armstrong(n)) 
+#Code ends here.
