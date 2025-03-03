@@ -6,6 +6,7 @@ Sample Output:
 cmrit ece ece department
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split()
 list2=[]
@@ -15,3 +16,4 @@ for i in list1:
     else:
         list2.append(i)
 print(*list2)
+#Code ends here.
