@@ -14,6 +14,8 @@ Sample Output:
 1
 4
 '''
+
+#Code starts here:
 n=int(input())
 list1=[]
 list2=[]
@@ -26,3 +28,4 @@ if len(list2)==0:
     print("None")
 else:
     print(*list2,sep='\n')
+#Code ends here.
