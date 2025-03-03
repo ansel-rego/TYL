@@ -21,6 +21,7 @@ https://www.cmrit.ac.in
 ftp://internet.address.edu
 '''
 
+#Code starts here:
 n = int(input())
 list1=[]
 list2=[]
@@ -38,3 +39,4 @@ if len(list2)!=0:
     print(*list2,sep='\n')
 else:
     print('Nil')
+#Code ends here.
