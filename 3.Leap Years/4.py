@@ -6,6 +6,8 @@ Sample Output:
 104,108,112,116,120,124,128,132,136,140
 
 '''
+
+#Code starts here:
 n=int(input())
 list1=[]
 
@@ -26,3 +28,4 @@ while (len(list1)<10):
     n+=1
 
 print(*list1,sep=',')
+#Code ends here.
