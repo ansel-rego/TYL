@@ -6,6 +6,7 @@ Sample Output:
 0,1,1,2,3
 '''
 
+#Code starts here:
 n=int(input()) 
 def Fun_Fib(n):
     if n==1:
@@ -20,3 +21,4 @@ def Fun_Fib(n):
     print(*list1,sep=',')
 
 Fun_Fib(n) 
+#Code ends here.
