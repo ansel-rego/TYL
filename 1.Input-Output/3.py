@@ -13,6 +13,8 @@ Sample Output:
 2
 4
 '''
+
+#Code starts here:
 n = int(input())
 list1=[]
 for i in range(n):
@@ -25,3 +27,4 @@ for i in list1:
         even.append(i)
 
 print(*even,sep='\n')
+#Code ends here.
