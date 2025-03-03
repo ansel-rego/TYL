@@ -9,6 +9,7 @@ rajesh
 Rakesh
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list2=[]
@@ -21,4 +22,4 @@ if (len(list2)==0):
     print(-1)
 else:
     print(*list2,sep='\n')
-
+#Code ends here.
