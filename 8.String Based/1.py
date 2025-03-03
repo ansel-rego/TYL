@@ -6,6 +6,7 @@ Sample Output:
 8,4,3,3
 '''
 
+#Code starts here:
 str1=input()
 alphabet=0
 digits=0
@@ -21,3 +22,4 @@ for i in str1:
     else:
         specialchar+=1
 print(alphabet,digits,spaces,specialchar,sep=',')
+#Code ends here.
