@@ -11,7 +11,7 @@ Sample Output:
 120
 '''
 
-#Code ends here.
+#Code starts here:
 lower=int(input())
 upper=int(input())
 def leap(year):
