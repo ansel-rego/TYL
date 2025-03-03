@@ -6,6 +6,7 @@ Sample Output:
 True
 '''
 
+#Code starts here:
 num=int(input())
 
 def Fun_Prime(num):
@@ -20,9 +21,11 @@ def Fun_Prime(num):
         return True
         
 print(Fun_Prime(num))
+#Code ends here.
 
-#althernate method
+#alternate method:
 '''
+#Code starts here:
 def Fun_Prime(n):
     import math
     if (n==0 or n==1):
@@ -34,4 +37,5 @@ def Fun_Prime(n):
             if (n%i==0):
                 return False
         return True
+#Code ends here.
 '''
