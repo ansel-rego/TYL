@@ -17,6 +17,7 @@ Sample OUTPUT:
 192.16.0.1
 '''
 
+#Code starts here:
 n=int(input())
 import re
 list1=[]
@@ -32,3 +33,4 @@ if len(list2)!=0:
     print(*list2,sep='\n')
 else:
     print('Nil')
+#Code ends here.
