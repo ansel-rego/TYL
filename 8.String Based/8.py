@@ -9,7 +9,7 @@ Sample Output:
 True
 '''
 
-
+#Code starts here:
 str1=input()
 a=0
 for i in str1:
@@ -20,3 +20,5 @@ if a==0:
     print(True)
 else:
     print(False)
+    
+#Code ends here.
