@@ -6,6 +6,7 @@ Sample Output:
 1011
 '''
 
+#Code starts here:
 n=int(input())
 str1=''
 while(n>0):
@@ -13,3 +14,4 @@ while(n>0):
     str1=str(r)+str1
     n=n//2
 print(str1)
+#Code ends here.
