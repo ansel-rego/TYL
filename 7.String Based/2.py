@@ -11,6 +11,8 @@ Sample Output:
 radar
 madam
 '''
+
+#Code starts here:
 n=int(input())
 list1=[]
 list2=[]
@@ -23,3 +25,5 @@ if len(list2)==0:
     print('Nil')
 else:
     print(*list2,sep='\n')
+
+#Code ends here.
