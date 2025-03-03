@@ -9,6 +9,7 @@ Sample Output:
 mahesh,3
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split()
 dict1={}
@@ -23,3 +24,4 @@ for i in sorted(dict1.keys()):
         break
 
 print(winner,max_votes,sep=',')
+#Code ends here.
