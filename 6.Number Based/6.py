@@ -12,6 +12,7 @@ Sample Output:
 41
 '''
 
+#Code starts here:
 n=int(input())
 def prime(n):
     if (n<2):
@@ -34,3 +35,4 @@ for i in list1:
     if sum in list1 and sum!=2:
         list2.append(sum)
 print(*list2,sep='\n')
+#Code ends here.
