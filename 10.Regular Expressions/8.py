@@ -7,6 +7,7 @@ Sample OUTPUT:
 20-01-2016 25-05-2020 12-10-2008 01-12-2007
 '''
 
+#Code starts here:
 import re
 str1=input()
 list1=str1.split()
@@ -21,3 +22,4 @@ for i in list1:
         list2.append(str2)
 
 print(*list2)
+#Code ends here.
