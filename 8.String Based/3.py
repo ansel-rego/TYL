@@ -6,6 +6,7 @@ Sample Output:
 2,6
 '''
 
+#Code starts here:
 str1=input()
 counter_upper=0
 counter_lower=0
@@ -15,3 +16,4 @@ for i in str1:
     elif i.islower():
         counter_lower+=1
 print(counter_upper,counter_lower,sep=',')
+#Code ends here.
