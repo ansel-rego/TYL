@@ -6,9 +6,12 @@ Sample Input:
 Sample Output:
 9
 '''
+
+#Code starts here:
 binary=input()
 binary=binary[::-1] #This will reverse the string
 decimal=0
 for i in range(len(binary)):
     decimal = decimal + (int(binary[i])*(2**i))
 print(decimal)
+#Code ends here.
