@@ -17,6 +17,7 @@ Sample Output:
 1
 '''
 
+#Code starts here:
 n = int(input())
 list1=[]
 list2=[]
@@ -33,3 +34,4 @@ else:
         if m==list2[i]:
             print(i+1)
             break
+#Code ends here.
