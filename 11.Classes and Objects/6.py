@@ -8,6 +8,8 @@ Sample Output:
 6
 3.61
 '''
+
+#Code starts here:
 class rectangle():
     def __init__(self,l,b):
         self.length=l
@@ -25,3 +27,4 @@ rect=rectangle(int(list1[0]),int(list1[1]))
 
 print(rect.area())
 print(rect.diagonal())
+#Code ends here.
