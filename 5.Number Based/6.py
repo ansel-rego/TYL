@@ -7,6 +7,7 @@ Sample Output:
 4
 '''
 
+#Code starts here:
 num1=int(input()) 
 num2=int(input()) 
 def GCD(n1,n2):
@@ -18,3 +19,4 @@ def GCD(n1,n2):
     return gcd
             
 print(GCD(num1,num2)) 
+#Code ends here.
