@@ -6,6 +6,7 @@ Sample Output:
 104,108,400,404,408
 '''
 
+#Code ends here.
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]  
@@ -27,3 +28,4 @@ if len(list2)==0:
     print('NIL')
    
 print(*list2,sep=',')
+#Code ends here.
