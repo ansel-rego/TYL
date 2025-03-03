@@ -7,6 +7,7 @@ Sample Output:
 5 8 13 21 34
 '''
 
+#Code starts here:
 lower=int(input())
 upper=int(input())
 if lower==0 and upper==1:
@@ -21,3 +22,4 @@ else:
         next=list1[-1]+list1[-2]
         list1.append(next)  
 print(*list2)
+#Code ends here.
