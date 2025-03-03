@@ -10,6 +10,7 @@ Sample Output:
 49
 '''
 
+#Code starts here:
 def Is_Square(n):
     n1=n**0.5
     n2=int(n1)
@@ -32,3 +33,4 @@ if len(list2)==0:
     print('NIL')
 else:
     print(*list2,sep='\n')
+#Code ends here.
