@@ -5,6 +5,8 @@ Sample Input:
 Sample Output:
 12
 '''
+
+#Code starts here:
 str1=input()
 list1=str1.split()
 list1=[int(i) for i in list1]
@@ -17,3 +19,4 @@ def LCM(n1,n2):
         if i%n3==0 and i%n4==0:
             return i
 print(LCM(a,b))
+#Code ends here.
