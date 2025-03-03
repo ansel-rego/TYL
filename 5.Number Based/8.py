@@ -7,6 +7,7 @@ Sample Output:
 True
 '''
 
+#Code starts here:
 n=int(input())
 def Spy(n):
     s=str(n)
@@ -20,3 +21,4 @@ def Spy(n):
     else:
         print("False")
 Spy(n) 
+#Code ends here.
