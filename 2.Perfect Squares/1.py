@@ -8,6 +8,7 @@ Sample Output:
 True
 '''
 
+#Code starts here:
 n=int(input())
 def Is_Square(n):
     n1=n**0.5
@@ -18,3 +19,4 @@ def Is_Square(n):
     else:
         return False
 print(Is_Square(n))
+#Code ends here.
