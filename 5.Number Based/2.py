@@ -17,6 +17,7 @@ Sample Output:
 11
 '''
 
+#Code starts here:
 n=int(input())
 list1=[]
 list2=[]
@@ -27,3 +28,4 @@ for i in list1:
         list2.append(i)
     
 print(*list2,sep='\n')
+#Code ends here.
