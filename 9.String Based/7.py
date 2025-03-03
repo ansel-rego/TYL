@@ -7,7 +7,7 @@ Sample Output:
 {2: 3, 4: 3, 6: 3, 8: 3}
 '''
 
-
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]
@@ -16,3 +16,4 @@ for i in sorted(list1):
     key=i
     dict1[key]=list1.count(i)
 print(dict1)
+#Code ends here.
