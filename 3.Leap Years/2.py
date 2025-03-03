@@ -6,7 +6,7 @@ Sample Output:
 104,108,400,404,408
 '''
 
-#Code ends here.
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]  
