@@ -10,6 +10,7 @@ Sample Output:
 9
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]
@@ -32,3 +33,4 @@ if len(list2)==0:
     print ('NIL')
     
 print(*list2,sep='\n')
+#Code ends here.
