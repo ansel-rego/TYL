@@ -12,6 +12,8 @@ Sample Output:
 80.67
 8.82
 '''
+
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]
@@ -35,3 +37,4 @@ Raveesh = Student(list1[0],list1[1],list1[2])
 
 print(Raveesh.Percentage())
 print(Raveesh.SGPA())
+#Code ends here.
