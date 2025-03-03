@@ -13,6 +13,7 @@ Sample Output:
 raveesh
 '''
 
+#Code starts here:
 n=int(input())
 list1=[]
 for i in range(n):
@@ -27,3 +28,4 @@ for i in list1:
         req_word=i
         count_past=count_present
 print(req_word)
+#Code ends here.
