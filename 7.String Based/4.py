@@ -20,6 +20,7 @@ Sample Output:
 B 1000
 '''
 
+#Code starts here:
 n=int(input())
 list1=[]
 for i in range(n):
@@ -31,3 +32,4 @@ for i in list1:
     elif i[0]=='W':
         bal=bal-int(i[2:])
 print('B',bal)
+#Code ends here.
