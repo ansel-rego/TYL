@@ -8,6 +8,7 @@ sachin.t@gmail.com
 virat_k@cmrit.ac.in
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split()
 list2=[]
@@ -22,3 +23,4 @@ if len(list2)!=0:
     print(*list2,sep='\n')
 else:
     print('Nil')
+#Code ends here.
