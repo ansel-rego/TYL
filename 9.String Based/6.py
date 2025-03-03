@@ -15,6 +15,8 @@ rohit,wipro
 rahul,reliance
 '''
 
+
+#Code starts here:
 n=int(input())
 list1=[]
 for i in range(n):
@@ -24,3 +26,5 @@ for i in list1:
     list2=i.split('@')
     list3=list2[1].split('.')
     print(list2[0],list3[0],sep=',')
+
+#Code ends here.
