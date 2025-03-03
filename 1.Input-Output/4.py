@@ -7,6 +7,7 @@ Sample Output:
 Rohit Virat Bumra
 '''
 
+#Code starts here:
 str1=input()
 list1 = str1.split()
 
@@ -17,3 +18,4 @@ for i in list1:
         words.append(i)
 
 print(*words)
+#Code ends here.
