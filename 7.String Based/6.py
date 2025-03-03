@@ -8,6 +8,7 @@ Sample Output:
 cmrit ece
 '''
 
+#Code starts here:
 str1=input()
 str2=input()
 list1=str1.split()
@@ -20,3 +21,4 @@ if len(list3)!=0:
     print(*list3)
 else:
     print('Nil')
+#Code ends here.
