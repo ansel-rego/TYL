@@ -15,6 +15,7 @@ vt
 cs
 '''
 
+#Code starts here:
 n=int(input())
 list1=[]
 list2=[]
@@ -28,3 +29,4 @@ for i in list1:
             str2=str2+j
     list2.append(str2)
 print(*list2,sep='\n')
+#Code ends here.
