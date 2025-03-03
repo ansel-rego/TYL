@@ -17,6 +17,7 @@ KA63HJ2024
 KA63HJ2032
 '''
 
+#Code starts here:
 import re
 n = int(input())
 list1=[]
@@ -34,3 +35,4 @@ if len(list2)!=0:
     print(*list2,sep='\n')
 else:
     print('Nil')
+#Code ends here.
