@@ -9,6 +9,8 @@ Sample Input:
 Sample Output:
 2,4,6
 '''
+
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]
@@ -20,4 +22,5 @@ for i in list1:
         even.append(i)
     
 print(*even,sep=',')
+#Code ends here.
 
