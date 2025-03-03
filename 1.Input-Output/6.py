@@ -14,6 +14,8 @@ Sample Output:
 Rohit
 Virat
 '''
+
+#Code starts here:
 n = int(input())
 list1=[]
 for i in range(n):
@@ -26,3 +28,4 @@ for i in list1:
         odd.append(i)
 
 print(*odd,sep='\n')
+#Code ends here.
