@@ -11,6 +11,7 @@ going*****
 bengaluru*
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split()
 
@@ -19,3 +20,4 @@ for i in list1:
         if len(i)<10:
             i=i+('*'*(10-len(i)))
             print(i)
+#Code ends here.
