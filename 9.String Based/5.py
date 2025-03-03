@@ -8,9 +8,11 @@ Sample Output:
 25
 '''
 
+#Code starts here:
 str1=input()
 num=0
 for i in str1:
     if i.isdigit():
         num+=int(i)
 print(num)
+#Code ends here.
