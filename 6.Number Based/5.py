@@ -9,6 +9,7 @@ Sample Output:
 12
 '''
 
+#Code starts here:
 str1=input()
 list1=str1.split()
 list1=[int(i) for i in list1]
@@ -27,3 +28,4 @@ else:
             if i!=5:
                 prod=prod*i
         print(prod)
+#Code ends here.
