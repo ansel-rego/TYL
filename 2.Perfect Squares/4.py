@@ -6,6 +6,7 @@ Sample Output:
 9,16,25,36,49,64,81,100,121,144
 '''
 
+#Code starts here:
 def Is_Square(x):
     import math
     if int(math.sqrt(x))==(x**0.5):
@@ -22,3 +23,4 @@ while len(list1)<10:
     n+=1
 
 print(*list1,sep=',')
+#Code ends here.
