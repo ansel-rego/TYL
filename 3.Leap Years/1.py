@@ -7,6 +7,7 @@ Sample Output:
 False
 '''
 
+#Code starts here:
 def is_leap(year):
     if (year % 400 == 0) and (year % 100 == 0):
         return True
@@ -25,3 +26,4 @@ def is_leap(n):
 '''
     
 print(is_leap())
+#Code ends here.
