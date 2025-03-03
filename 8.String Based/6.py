@@ -21,6 +21,7 @@ aaBB#$12
 BBaa*&1234
 '''
 
+#Code starts here:
 n=int(input())
 list1=[]
 for i in range(n):
@@ -58,3 +59,4 @@ for i in list1:
         list2.append(i)
 
 print(*list2,sep='\n')
+#Code ends here.
