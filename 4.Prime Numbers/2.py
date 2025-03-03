@@ -7,6 +7,8 @@ Sample Output:
 2,3,5,7
 
 '''
+
+#Code starts here:
 str1=input()
 list1=str1.split(',')
 list1=[int(i) for i in list1]
@@ -31,3 +33,4 @@ if len(list2)==0:
     print ('Nil')
     
 print(*list2,sep=',')
+#Code ends here.
