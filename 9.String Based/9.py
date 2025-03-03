@@ -7,6 +7,7 @@ Sample Output:
 4312
 '''
 
+#Code starts here:
 str1 = input()  # Input string containing letters, digits, and special characters
 l1 = []
 
@@ -38,3 +39,5 @@ if int(n) % 2 == 0:
     print(n)
 else:
     print('Nil')
+
+#Code ends here.
