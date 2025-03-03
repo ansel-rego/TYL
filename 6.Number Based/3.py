@@ -6,6 +6,7 @@ Sample Output:
 True
 '''
 
+#Code starts here:
 n=int(input())
 def Is_Fib(n):
     if n==0:
@@ -26,3 +27,4 @@ def Is_Fib(n):
         else:
             return False
 print(Is_Fib(n))
+#Code ends here.
