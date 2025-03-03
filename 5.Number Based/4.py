@@ -6,8 +6,10 @@ Sample Output:
 37
 '''
 
+#Code starts here:
 n=int(input())
 l=len(str(n))
 m=n%10
 new=str(l)+str(m)
 print(new)
+#Code ends here.
