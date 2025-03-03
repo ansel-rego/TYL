@@ -15,6 +15,7 @@ Sample Output:
 37
 '''
 
+#Code starts here:
 n=int(input())
 list1=[]
 
@@ -33,5 +34,5 @@ while (len(list1)<10):
     if Prime(n)==True:
         list1.append(n)
     n=n+1
-
 print(*list1,sep='\n')
+#Code ends here.
